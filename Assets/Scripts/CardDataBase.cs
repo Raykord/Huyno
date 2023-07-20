@@ -9,8 +9,20 @@ public class CardDataBase : MonoBehaviour
 	private void Awake()
 	{
 		//Bonus
-		cardList.Add(new Card(0, "Bonus", 10, "Black", "ChangeColor"));
-		cardList.Add(new Card(1, "Bonus", 10, "Black", "+4"));
+		cardList.Add(new Card(0, "Bonus", 15, "Black", "ChangeColor"));
+		cardList.Add(new Card(1, "Bonus", 15, "Black", "+4"));
+		cardList.Add(new Card(42, "Bonus", 10, "Red", "+2"));
+		cardList.Add(new Card(43, "Bonus", 10, "Yelow", "+2"));
+		cardList.Add(new Card(44, "Bonus", 10, "Green", "+2"));
+		cardList.Add(new Card(45, "Bonus", 10, "Blue", "+2"));
+		cardList.Add(new Card(46, "Bonus", 10, "Red", "ChangeDirection"));
+		cardList.Add(new Card(47, "Bonus", 10, "Yelow", "ChangeDirection"));
+		cardList.Add(new Card(48, "Bonus", 10, "Green", "ChangeDirection"));
+		cardList.Add(new Card(49, "Bonus", 10, "Blue", "ChangeDirection"));
+		cardList.Add(new Card(50, "Bonus", 10, "Red", "Cencel"));
+		cardList.Add(new Card(51, "Bonus", 10, "Yelow", "Cencel"));
+		cardList.Add(new Card(52, "Bonus", 10, "Green", "Cencel"));
+		cardList.Add(new Card(53, "Bonus", 10, "Blue", "Cencel"));
 		//0
 		cardList.Add(new Card(2, "Digit", 0, "Red", "None"));
 		cardList.Add(new Card(3, "Digit", 0, "Yelow", "None"));
